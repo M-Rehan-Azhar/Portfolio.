@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REHAN'S PORTFOLIO</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-[#000814] ">
+
+<!-- Initialize AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <div
+        class="navbar flex h-14 items-center justify-between px-6 pt-3 pb-3 text-gray-300 transition duration-300 ease-in-out sticky top-0 z-50 bg-[#000814] shadow-lg">
+        <div
+            class="logo font-extrabold mx-9 text-black bg-white rounded-full border-2 flex w-10 h-10 justify-center items-center hover:opacity-55 cursor-pointer">
+            <h3>R</h3>
+        </div>
+        <div class="middlecontent text-sm font-semibold">
+            <ul class="flex space-x-7 hover:cursor-pointer">
+                <li class="hover:text-[#23b9cc]"><a href="#homesection">HOME</a></li>
+                <li class="hover:text-[#23b9cc]"><a href="#aboutsection">ABOUT</a></li>
+                <li class="hover:text-[#23b9cc]"><a href="#skillssection">SKILLS</a></li>
+                <li class="hover:text-[#23b9cc]"><a href="#portfoliosection">PORTFOLIO</a></li>
+                <li class="hover:text-[#23b9cc]"><a href="#contactsection">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="socialicons flex space-x-3 hover:cursor-pointer">
+            <a class="hover:opacity-55" href="https://www.instagram.com/raja_.rehan/" target="_blank"><ion-icon
+                    name="logo-instagram"></ion-icon></a>
+            <a class="hover:opacity-55" href="https://www.facebook.com/rehan.azhar.940" target="_blank"><ion-icon
+                    name="logo-facebook"></ion-icon></a>
+            <a class="hover:opacity-55"
+                href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                target="_blank"><ion-icon name="logo-linkedin" target="_blank"></ion-icon></a>
+            <a class="hover:opacity-55" href="https://api.whatsapp.com/send?phone=923155386873"
+                target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a class="hover:opacity-55" href="https://github.com/M-Rehan-Azhar" target="_blank"><ion-icon
+                    name="logo-github"></ion-icon></a>
+        </div>
+    </div>
+
+    <!-- Invisible spacer for scroll detection -->
+    <div class="h-50"></div>
+
+    <!-- body -->
+    <div id="homesection" class="Home flex justify-between items-center">
+        <div class="left w-2/5 my-10 mt-14 mx-28 flex flex-col items-center">
+            <h1 class="text-white text-4xl font-bold">
+                Hi, I'm Rehan Azhar
+            </h1>
+            <h1 class="text-[#23b9cc] text-4xl font-bold my-4 space">Web Developer</h1>
+            <p class="text-white my-2 text-base font-semibold text-justify">
+                Welcome to my web development portfolio! As a dedicated web developer, I specialize in transforming
+                ideas into interactive, user-friendly websites. I am committed to clean code, innovative design, and a
+                seamless user experience. Browse through my projects to witness the synergy of creativity and technology
+                in action. Let's collaborate to turn your vision into a stunning digital reality!
+            </p>
+            <a href="#contactsection"
+                class="text-white text-sm bg-gradient-to-l from-slate-500 to-gray-700 hover:from-[#00bcd4] hover:to-[#295070] px-5 py-2 rounded-2xl my-5 animate-jiggle">
+                Contact Me
+            </a>
+
+        </div>
+        <div
+            class="right w-80 h-80 mr-32 overflow-hidden rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] shadow-[0_0_20px_#26c6da] zoom-animation">
+            <img src="../new.jpg" alt="Main Image" class="w-full h-full object-cover">
+        </div>
+    </div>
+    <!-- about section  -->
+<div id="aboutsection" class="about-section my-10 flex px-12 items-center justify-around" style="height: 600px;" data-aos="fade-up">
+    <!-- Left Image -->
+    <div class="left" data-aos="fade-right" data-aos-delay="200">
+        <img class="w-auto h-64" style="border-radius: 5px; box-shadow: 0 0 20px #26c6da;" src="../imgnew.jpg" alt="">
+    </div>
+
+    <!-- Right Content -->
+    <div class="right w-3/5 h-3/5" data-aos="fade-left" data-aos-delay="300">
+        <div class="text-[#23b9cc] text-sm font-bold pl-24">WHO AM I?</div>
+        <div class="text-white text-5xl font-bold mb-4 ml-5">About Me</div>
+        <p class="text-white text-lg mt-5 font-semibold text-justify">
+            I'm a passionate web developer specializing in both front-end and back-end development. With a strong foundation in creating dynamic and responsive websites, I bring ideas to life through
+            clean and efficient code. I thrive on challenges that allow me to innovate and create user-centric
+            experiences. Let's collaborate and turn your ideas into reality.
+        </p>
+        <div class="flex list-none mt-5 text-base font-semibold">
+            <div class="left2" data-aos="fade-up" data-aos-delay="400">
+                <li class="text-white pt-3"><ion-icon name="person-outline"></ion-icon><span class="ml-2">Name</span></li>
+                <li class="text-white pt-3"><ion-icon name="call-outline"></ion-icon><span class="ml-2">Phone</span></li>
+                <li class="text-white pt-3"><ion-icon name="send-outline"></ion-icon><span class="ml-2">Email</span></li>
+            </div>
+            <div class="right2 ml-5" data-aos="fade-up" data-aos-delay="450">
+                <li class="text-white pt-3">Muhammad Rehan Azhar</li>
+                <li class="text-white pt-3">+923155386873</li>
+                <li class="text-white pt-3">rehanazhar331@gmail.com</li>
+            </div>
+        </div>
+         <a href="D:\Portfolio-main\Muhammad Rehan Azhar CV.pdf" download 
+                class="text-white text-sm bg-gradient-to-l from-slate-500 to-gray-700 hover:from-[#00bcd4] hover:to-[#295070] px-5 py-2 rounded-2xl my-9 mx-6 transition-transform duration-300 hover:scale-105 inline-block"
+                data-aos="zoom-in" data-aos-delay="500">
+                Download Resume
+        </a>
+    </div>
+</div>
+
+
+    <!-- My Expertise Section -->
+    <div id="skillssection" class="expertise-section text-center my-20">
+        <h2 class="text-white text-4xl font-bold">My Expertise</h2>
+        <h3 class="text-[#23b9cc] text-2xl font-semibold mt-4">Skills and Experience</h3>
+
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-4 gap-7 mx-20 my-10">
+            <!-- Skill 1 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-html5" class="text-6xl text-[#e34c26] mb-3"></ion-icon>
+                <p class="text-white font-medium">HTML5</p>
+            </div>
+            <!-- Skill 2 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-css3" class="text-6xl text-[#2965f1] mb-3"></ion-icon>
+                <p class="text-white font-medium">CSS3</p>
+            </div>
+            <!-- Skill 3 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-javascript" class="text-6xl text-[#f0db4f] mb-3"></ion-icon>
+                <p class="text-white font-medium">JavaScript</p>
+            </div>
+            <!-- Skill 4 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-react" class="text-6xl text-[#61dafb] mb-3"></ion-icon>
+                <p class="text-white font-medium">React</p>
+            </div>
+            <!-- Skill 5 -->
+            <div class="skill text-center">
+                <ion-icon name="leaf-outline" class="text-6xl text-[#47A248] mb-3"></ion-icon>
+                <p class="text-white font-medium">MongoDB</p>
+            </div>
+            <!-- Skill 6 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-nodejs" class="text-6xl text-[#68A063] mb-3"></ion-icon>
+                <p class="text-white font-medium">Node.js</p>
+            </div>
+            <!-- Skill 7 -->
+            <div class="skill text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                    class="w-16 h-16 mx-auto mb-3" alt="Tailwind CSS">
+                <p class="text-white font-medium">Tailwind CSS</p>
+            </div>
+            <!-- Skill 8 -->
+            <div class="skill text-center">
+                <ion-icon name="logo-github" class="text-6xl text-white mb-3"></ion-icon>
+                <p class="text-white font-medium">GitHub</p>
+            </div>
+            <!-- Skill 9 -->
+            <!-- Skill 9 -->
+            <div class="skill text-center">
+                <div class="flex justify-center items-center text-2xl text-orange-500 mb-3">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="3em"
+                        width="3em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m21.62 11.108-8.731-8.729a1.292 1.292 0 0 0-1.823 0L9.257 4.19l2.299 2.3a1.532 1.532 0 0 1 1.939 1.95l2.214 2.217a1.53 1.53 0 0 1 1.583 2.531c-.599.6-1.566.6-2.166 0a1.536 1.536 0 0 1-.337-1.662l-2.074-2.063V14.9c.146.071.286.169.407.29a1.537 1.537 0 0 1 0 2.166 1.536 1.536 0 0 1-2.174 0 1.528 1.528 0 0 1 0-2.164c.152-.15.322-.264.504-.339v-5.49a1.529 1.529 0 0 1-.83-2.008l-2.26-2.271-5.987 5.982c-.5.504-.5 1.32 0 1.824l8.731 8.729a1.286 1.286 0 0 0 1.821 0l8.69-8.689a1.284 1.284 0 0 0 .003-1.822">
+                        </path>
+                    </svg>
+                </div>
+                <p class="text-white font-medium">Git</p>
+            </div>
+            <!-- Skill 10 -->
+            <div class="skill text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                    class="w-16 h-16 mx-auto mb-3" alt="Tailwind CSS">
+                <p class="text-white font-medium">Tailwind CSS</p>
+            </div>
+            <!-- Skill 11 -->
+            <div class="skill text-center">
+                <div class="flex justify-center items-center text-6xl text-[#7952b3] mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                        class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                        <path
+                            d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                    </svg>
+                </div>
+                <p class="text-white font-medium">Bootstrap</p>
+            </div>
+            <!-- Skill 12 -->
+            <div class="skill text-center ">
+                <img src="https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg" class="w-28 h-20 mx-auto "
+                    alt="Oracle">
+                <p class="text-white font-medium ">Oracle</p>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div id="portfoliosection" class="portfolio-section text-center my-20 ">
+        <h2 class="text-white text-4xl font-semibold">Portfolio</h2>
+        <h3 class="text-[#23b9cc] text-2xl font-semibold mt-4">My Recent Works</h3>
+
+        <!-- Portfolio Grid -->
+        <div class="grid grid-cols-3 gap-6 mx-56 mr-3 my-10 " style="max-width: 800px;">
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 1" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 1</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 2" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 2</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 3" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 3</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 4" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 4</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 5" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 5</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item -->
+            <div class="portfolio-item border border-[#23b9cc] rounded-lg overflow-hidden shadow-lg"
+                style="width: 200px; height: 200px;">
+                <img src="https://via.placeholder.com/200x200" alt="Project 6" class="w-full h-32 object-cover">
+                <div class="p-2">
+                    <h4 class="text-white font-semibold text-sm">Project Title 6</h4>
+                    <p class="text-gray-300 text-xs">Brief description of the project.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Get In Touch Section -->
+<div id="contactsection" class="lastbox text-white flex flex-col items-center mt-15 mb-20 text-xs" data-aos="fade-up">
+    <div class="text-sm font-semibold text-[#23b9cc]" data-aos="zoom-in">Get In Touch</div>
+    <div class="text-3xl font-semibold mb-8" data-aos="fade-right">Contact Me</div>
+
+    <div class="whitebox w-9/12 flex flex-col lg:flex-row bg-[#ffffff] text-black rounded-xl px-6 py-2 shadow-lg" data-aos="fade-up" data-aos-delay="200">
+        
+        <!-- Left Side -->
+        <div class="left w-full lg:w-1/2 p-4 text-[#0bb7da]" data-aos="fade-right" data-aos-delay="300">
+            <div class="text-2xl font-semibold mb-4">Just Say Hi</div>
+            <p class="mb-6 text-justify font-semibold text-black">
+                Feel free to reach out! Your thoughts matter, and I'm eager to connect. Drop me a message or inquiry,
+                and let's start a conversation. I look forward to hearing from you and working with you on your next
+                project.
+            </p>
+            <ul class="list-none space-y-4 font-semibold">
+                <li class="flex items-center text-black">
+                    <ion-icon name="location-outline"
+                        class="text-xl rounded-full text-white bg-[#00b4d8] py-2 px-2 mr-2"></ion-icon>
+                    Islamabad, Pakistan
+                </li>
+                <li class="flex items-center text-black">
+                    <ion-icon name="call-outline"
+                        class="text-xl rounded-full text-white bg-[#00b4d8] py-2 px-2 mr-2"></ion-icon>
+                    +92-3155386873
+                </li>
+                <li class="flex items-center text-black">
+                    <ion-icon name="mail-outline"
+                        class="text-xl rounded-full text-white bg-[#00b4d8] py-2 px-2 mr-2"></ion-icon>
+                    rehanazhar331@gmail.com
+                </li>
+            </ul>
+            <div class="socialicons text-2xl text-black mt-4 space-x-3 hover:cursor-pointer">
+                <a class="hover:opacity-55" href="https://www.instagram.com/raja_.rehan/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a class="hover:opacity-55" href="https://www.facebook.com/rehan.azhar.940" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a class="hover:opacity-55" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a class="hover:opacity-55" href="https://api.whatsapp.com/send?phone=923155386873" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+                <a class="hover:opacity-55" href="https://github.com/M-Rehan-Azhar" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side Form -->
+        <form action="https://formsubmit.co/rehanazhar331@gmail.com" method="POST"
+            class="right w-full lg:w-1/2 p-4 space-y-4" data-aos="fade-left" data-aos-delay="400">
+            
+            <!-- FormSubmit config -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_subject" value="New Contact Message from Portfolio!">
+
+            <div class="text-2xl font-semibold mb-4">Get In Touch</div>
+            <div class="flex space-x-4">
+                <input type="text" name="First Name" placeholder="First Name" required
+                    class="bg-gray-100 w-1/2 p-2 border-2 rounded-md focus:outline-none focus:border-[#23b9cc]">
+                <input type="text" name="Last Name" placeholder="Last Name" required
+                    class="bg-gray-100 w-1/2 p-2 border-2 rounded-md focus:outline-none focus:border-[#23b9cc]">
+            </div>
+            <div class="flex space-x-4">
+                <input type="text" name="Phone" placeholder="Phone"
+                    class="bg-gray-100 w-1/2 p-2 border-2 rounded-md focus:outline-none focus:border-[#23b9cc]">
+                <input type="email" name="Email" placeholder="Email" required
+                    class="bg-gray-100 w-1/2 p-2 border-2 rounded-md focus:outline-none focus:border-[#23b9cc]">
+            </div>
+            <div>
+                <textarea name="Message" placeholder="Message" required
+                    class="bg-gray-100 h-40 w-full p-2 border-2 rounded-md focus:outline-none focus:border-[#23b9cc]"></textarea>
+            </div>
+            <button type="submit"
+                class="text-white text-sm bg-gradient-to-l from-slate-500 to-gray-700 hover:from-[#00bcd4] hover:to-[#295070] px-5 py-2 rounded-2xl transition-transform duration-300 hover:scale-105">
+                Send
+            </button>
+        </form>
+    </div>
+</div>
+
+    <!-- footer  -->
+    <!-- Footer Section -->
+    <footer class="bg-[#000814] text-white  text-xs font-semibold ">
+        <div class="container mx-auto px-4 flex justify-center">
+            <div class="mb-4">
+                <p class="text-xs"><span>Copyright</span>&copy; 2024 All rights reserved. Made by <span
+                        class="text-[#23b9cc]">Muhammad Rehan Azhar</span></p>
+            </div>
+            <div class="mb-4">
+                <p class="text-xs font-semibold ml-6">Follow Me</p>
+            </div>
+            <div class="stick w-12 h-[2px] bg-white mt-2 ml-2"></div>
+            <div class="socialicons space-x-2 ml-3 hover:cursor-pointer">
+                <a class="hover:opacity-55" href="https://www.instagram.com/raja_.rehan/" target="_blank"> <ion-icon
+                        name="logo-instagram"></ion-icon></a>
+                <a class="hover:opacity-55" href="https://www.facebook.com/rehan.azhar.940" target="_blank"><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+                <a class="hover:opacity-55"
+                    href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                    target="_blank"><ion-icon name="logo-linkedin" target="_blank"></ion-icon></a>
+                <a class="hover:opacity-55" href="https://api.whatsapp.com/send?phone=923155386873"
+                    target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                <a class="hover:opacity-55" href="https://github.com/M-Rehan-Azhar" target="_blank"><ion-icon
+                        name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+    <!-- for navbar  -->
+    <script src="script.js"></script>
+</body>
+
+</html>

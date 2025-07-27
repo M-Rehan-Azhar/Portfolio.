@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+}
+
+@keyframes jiggle {
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+}
+.animate-jiggle {
+    animation: jiggle 1.5s infinite;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.zoom-animation img {
+    transition: transform 0.3s ease-in-out;
+    animation: zoomInOut 5s infinite;
+}
+
